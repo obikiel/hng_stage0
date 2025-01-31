@@ -7,7 +7,7 @@ class PublicInfoView(APIView):
         data = {
             "email": "ezekielobiomachi1@gmail.com",
             "current_datetime": datetime.now().isoformat() + "Z",
-            "github_url": "https://github.com/yourusername/yourproject",
+            "github_url": "https://github.com/obikiel/hng_stage0",
         }
         return Response(data)
 
